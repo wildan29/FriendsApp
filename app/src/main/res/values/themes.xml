@@ -3,8 +3,15 @@
     <style name="Base.Theme.FriendsApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-
+        <item name="android:background">#F5FFF3</item>
+        <item name="android:statusBarColor">#F5FFF3</item>
+        <item name="colorOnBackground">#13131C</item>
     </style>
 
     <style name="Theme.FriendsApp" parent="Base.Theme.FriendsApp" />
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
